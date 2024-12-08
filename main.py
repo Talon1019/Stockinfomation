@@ -9,6 +9,7 @@ import requests
 from bs4 import BeautifulSoup
 
 def main():
+    print(mpf.__version__)
     # Configure the Streamlit page
     st.set_page_config(page_title="Market Support and Resistance Analyzer", layout="wide")
     st.title("📊 Market Support and Resistance Analyzer")
